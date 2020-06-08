@@ -41,4 +41,37 @@ created `excel-challenge.docx` to answer the following questions:
 2. What are some limitations of this dataset?
 3. What are some other possible tables and/or graphs that we could create?
 
+### Section 6 - Bonus
+
+- created a new sheet with 
+	- 8 columns:
+		- `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, `Percentage Canceled`
+	- and 12 headers: 
+		- `Less than 1000`, `1000 to 4999`, `5000 to 9999`, `10000 to 14999`, `15000 to 19999`, `20000 to 24999`, `25000 to 29999`, `30000 to 34999`, `35000 to 39999`, `40000 to 44999`, `45000 to 49999`, `Greater than or equal to 50000`
+
+<br></br>
+
+1. Used `=COUNTIFS()` formula to count how many were successful, failed, or canceled from data set.
+2. Added up number of successful, failed, or canceled projects to get `Total Projects`
+3. Divided numbers by `Total Projects` to get percentage successful, failed, or canceled
+3. Created a line graph to show the relationship between a goal's amount and chances at success, failure, or cancellation
+![](Images/count_ifs.png)
+
+### Section 7 - Bonus Statistical Analysis
+1. Created a new sheet with two columns
+	1. One for `successful` campaigns
+	2. Second for `failed` campaigns
+3. Used `Name Manager` to name ranges `successful` and `failed` respectively
+4. Used excel to evaluate the following statistical tests
+	1. `mean` = `=AVERAGE(successful|failed)`
+	2. `median` = `=MEDIAN(successful|failed)`
+	3. `minimum` = `=MIN(successful|failed)`
+	4. `maximum` = `=MAX(successful|failed)`
+	5. `variance` = `=VAR.P(successful|failed)`
+	6. `standard deviation` = `=STDEV.P(successful|failed)`
+7. Answered questions about whether or not mean or median better summarized data and which, failed or successful campagins had higher variability.
+
+![](Images/bonus_statistical_analysis.png)
+
+
 
