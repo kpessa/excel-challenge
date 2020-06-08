@@ -26,3 +26,19 @@ by Kurt Pessa
 1. Created a pivot table in a new sheet that counted how many campaigns were successful, failed, canceled or currently live per **sub-category**.
 2. Created a stacked column pivot chart that can be filtered by `country` and `parent-category`
 ![](Images/pivot_table_2.png)
+
+### Section 4 - Converting Unix timestamps to Excel-readable date objects
+1. Created two new columns `Date Created Conversion` and `Date Ended Conversion` from `launched_at` and `deadline`.
+2. Converted unix timestamps to excel-readable date objects using formula below.
+![](Images/unix_timestamp_conversion.png)
+3. Created another pivot table / pivot chart with column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent-category` and `Years`
+![](Images/pivot_table_3.png)
+
+### Section 5 - Microsoft Word Report
+created `excel-challenge.docx` to answer the following questions:
+ 
+1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
+2. What are some limitations of this dataset?
+3. What are some other possible tables and/or graphs that we could create?
+
+
