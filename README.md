@@ -8,7 +8,7 @@ by Kurt Pessa
 ### Section 1 - Manipulating Data
 1. Used conditional formatting to color different cells based on `state` column. 
 ![](Images/state.png)
-2. Created a new `column O`  called `Percent Funded" to determine how much money a campaign made to reach its initial goal. 
+2. Created a new `column O`  called `Percent Funded` to determine how much money a campaign made to reach its initial goal. 
 ![](Images/percent_funded.png) 
 	- Used conditional formatting to fill each cells using a three-color scale. 
 ![](Images/three_color_scale.png)
