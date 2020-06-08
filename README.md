@@ -70,6 +70,8 @@ created `excel-challenge.docx` to answer the following questions:
 	5. `variance` = `=VAR.P(successful|failed)`
 	6. `standard deviation` = `=STDEV.P(successful|failed)`
 7. Answered questions about whether or not mean or median better summarized data and which, failed or successful campagins had higher variability.
+	1. Wrote that the **median** better summarized data because of the effect of outliers on mean.
+	2. Wrote that there was more variability with successful campaigns because wildy-successful or viral campaigns could greatly increase the variability.  And, that also, the failed campaigned centered around low numbers because there were not many people willing to back their projects.
 
 ![](Images/bonus_statistical_analysis.png)
 
